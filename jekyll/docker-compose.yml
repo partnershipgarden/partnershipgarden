@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  jekyll-server:
+    build: .
+    ports: [ "4000:4000" ]
+    command: bundle exec jekyll serve
+    volumes: [ ".:/code"  ]
+    depends_on: [ ]
+    dns: []
+    environment: []

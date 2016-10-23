@@ -4,8 +4,8 @@ services:
   jekyll-server:
     build: .
     ports: [ "4000:4000" ]
-    command: bundle exec jekyll serve
-    volumes: [ ".:/code"  ]
+    command: jekyll serve
+    volumes: [ "./jekyll:/code"  ]
     depends_on: [ ]
     dns: []
     environment: []

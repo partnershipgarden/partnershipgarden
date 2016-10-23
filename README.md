@@ -1,5 +1,5 @@
 # partnershipgarden
 PartnershipGarden.org jekyll site sources
 
-http://thepartnershipgarden.org
+http://partnershipgarden.org
 

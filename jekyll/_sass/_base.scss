@@ -16,16 +16,34 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    //background-color: $background-color;
+    background-color: #333333;
+//    background-image: url("/images/peppers-full-fadebottom.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    max-width: 1000px;
+    margin: auto;
 }
 
+.post-header {
+  border-bottom: solid 1px #333333;
+}
 
+.page-content, .post-header {
+  background-color: #ecf0ec;
+}
+
+header,  footer {
+  background-color: #bed0a6;
+  padding-top: 0px;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -37,8 +55,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
@@ -47,7 +63,9 @@ img {
     vertical-align: middle;
 }
 
-
+.post img {
+  float: right;
+}
 
 /**
  * Figures

@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Welcome to The Partnership Garden
+title: The Partnership Garden
 email: null # partnershipgarden@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The Partnership Garden 
-  a permaculture focused community garden in Apple Valley, Minnesota
+  <strong>The Partnership Garden </strong>
+  is a permaculture-focused community garden in Apple Valley, Minnesota
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://partnershipgarden.org" # the base hostname & protocol for your site
 twitter_username: null

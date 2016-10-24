@@ -6,7 +6,7 @@ permalink: /contact/
 
 <h3>Get in Touch with Us</h3>
 
-<p>You can reach us by email or by phone.</p>
+<p>You can reach us by email at {{site.email}}.</p>
 
 <h3>Location</h3>
 <p><em>Come visit us!</em>  Our garden is located in front of the <a href='http://www.district196.org/ses/'>School of Environmental Studies</a>, on the grounds of the <a href='http://www.mnzoo.org/index.asp'>Minnesota Zoological Gardens</a> in Apple Valley, Minnesota.  </p>
